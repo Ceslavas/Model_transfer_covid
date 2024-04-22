@@ -1,13 +1,18 @@
-
+﻿
 # Medical Imaging Analysis Tools
 
 ## Overview
-This program is designed for the classification of medical images (350 mb) using deep learning techniques to automatically detect diseases such as COVID-19. Utilizing neural network architectures like MobileNetV2, the program performs the following tasks:
+This script is a comprehensive solution for the classification of medical images (350 MB), using deep learning to detect diseases such as COVID-19. The program integrates various technologies and methods for data processing and machine learning (Machine Learning, Машинное обучение), including:
 
-1. **Data Preparation:** Imports and preprocesses images from specified directories.
-2. **Model Optimization and Selection:** Automatically selects the best model through cross-validation and determines optimal hyperparameters.
-3. **Model Training:** Trains the selected model on training data using techniques to prevent overfitting.
-4. **Results Analysis:** Validates and tests the model on new data to assess its effectiveness.
+### Key Components:
+1. **Data Preparation**: Automated import and processing of images to create optimized datasets for training, validation, and testing.
+2. **Modeling**: Use of the MobileNetV2 architecture to build a neural network, including tuning and compiling the model with additional layers for classification.
+3. **Results Analysis**: Testing and validation of the model on new data to assess its accuracy and reliability.
+
+### Goals and Functions:
+- **Efficient Data Use**: Caching and pre-loading of data to speed up training.
+- **Automation and Configuration**: External configuration files for managing startup parameters, ensuring flexibility and repeatability of experiments.
+- **Visualization of Process and Outcomes**: Displaying accuracy and losses during training, as well as the distribution of classes in the datasets.
 
 ## Requirements
 - Python 3.9.13 (https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe)  - compatibility with other versions of Python is not guaranteed.

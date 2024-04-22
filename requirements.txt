@@ -1,0 +1,6 @@
+pip
+setuptools
+numpy
+PyYAML
+matplotlib
+tensorflow-gpu==2.10

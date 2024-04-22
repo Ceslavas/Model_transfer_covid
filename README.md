@@ -2,7 +2,7 @@
 # Medical Imaging Analysis Tools
 
 ## Overview
-This program is designed for the classification of medical images using deep learning techniques to automatically detect diseases such as COVID-19. Utilizing neural network architectures like MobileNetV2, EfficientNetB7, and ResNet50, the program performs the following tasks:
+This program is designed for the classification of medical images (350 mb) using deep learning techniques to automatically detect diseases such as COVID-19. Utilizing neural network architectures like MobileNetV2, the program performs the following tasks:
 
 1. **Data Preparation:** Imports and preprocesses images from specified directories.
 2. **Model Optimization and Selection:** Automatically selects the best model through cross-validation and determines optimal hyperparameters.
@@ -10,7 +10,7 @@ This program is designed for the classification of medical images using deep lea
 4. **Results Analysis:** Validates and tests the model on new data to assess its effectiveness.
 
 ## Requirements
-- Python 3.x (compatibility with other versions of Python is not guaranteed).
+- Python 3.9.13 (https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe)  - compatibility with other versions of Python is not guaranteed.
 - Libraries:
   ```
   numpy
@@ -30,8 +30,8 @@ This program is designed for the classification of medical images using deep lea
 ## Configuration
 Before using the program, configure the `config.yaml` file:
 ```yaml
-TRAIN_DIR: './data/train'
-TEST_DIR: './data/test'
+TRAIN_DIR: '../data/train'
+TEST_DIR: '../data/test'
 BATCH_SIZE: 8
 IMAGE_WIDTH: 224
 IMAGE_HEIGHT: 224

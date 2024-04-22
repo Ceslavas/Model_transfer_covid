@@ -1,5 +1,5 @@
-TRAIN_DIR: './data/train'
-TEST_DIR: './data/test'
+TRAIN_DIR: '../data/train'
+TEST_DIR: '../data/test'
 BATCH_SIZE: 8
 IMAGE_WIDTH: 224
 IMAGE_HEIGHT: 224
